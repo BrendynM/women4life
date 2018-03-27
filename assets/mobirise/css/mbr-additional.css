@@ -1788,10 +1788,67 @@ body {
 .cid-qLSrKvEzN0 .mbr-text P {
   text-align: left;
 }
-.cid-qLStB2RsNf {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-image: url("../../../assets/images/mbr-1768x1080.jpg");
+.cid-qNvnZacuvS {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-qNvnZacuvS .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-qNvnZacuvS .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-qNvnZacuvS .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-qNvnZacuvS .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-qNvnZacuvS .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #554346;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-qNvnZacuvS .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-qNvnZacuvS .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-qNvnZacuvS .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-qNvnZacuvS .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #554346 !important;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
 }
 .cid-qLT5ZMuUsO {
   padding-top: 120px;
@@ -1873,43 +1930,6 @@ body {
   font-size: 17px;
 }
 .cid-qLSu11vJYx .team-item .item-caption {
-  background: #efefef;
-}
-.cid-qLSL44kvfe {
-  padding-top: 0px;
-  padding-bottom: 120px;
-  background-color: #ffffff;
-}
-.cid-qLSL44kvfe .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-qLSL44kvfe .media-row {
-  display: flex;
-  justify-content: center;
-}
-.cid-qLSL44kvfe .team-item {
-  transition: all .2s;
-  margin-bottom: 2rem;
-}
-.cid-qLSL44kvfe .team-item .item-image img {
-  width: 100%;
-}
-.cid-qLSL44kvfe .team-item .item-name p {
-  margin-bottom: 0;
-}
-.cid-qLSL44kvfe .team-item .item-role p {
-  margin-bottom: 0;
-}
-.cid-qLSL44kvfe .team-item .item-social {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.cid-qLSL44kvfe .team-item .item-social .socicon {
-  color: #232323;
-  font-size: 17px;
-}
-.cid-qLSL44kvfe .team-item .item-caption {
   background: #efefef;
 }
 .cid-qLStRp6Lal {
